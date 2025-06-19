@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_1/screens/customerDetails.dart';
+import 'package:project_1/screens/servicesScreen.dart';
 import 'package:project_1/screens/welcome.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome To App',
       theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Inter'),
-      home: Customerdetails(),
+      home: ServicesScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
